@@ -1020,4 +1020,4 @@ function decode(input: string) {
     .reduce((a, b) => a + b);
 }
 
-console.log(decode(input));
+console.log('decode:', decode(input));
